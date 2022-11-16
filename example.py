@@ -10,7 +10,7 @@ box_text.pack()
 
 txt = """hello world"""
 
-len_txt = len(txt) # get total lenght of the text content. Can be replace by `os.path.getsize` or other alternative for files
+len_txt = len(txt) # get total lenght of the text content. Can be replaced by `os.path.getsize` or other alternative for files
 
 main_text.insert(tk.INSERT, txt)
 
